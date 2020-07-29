@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 
-<html lamg="ja">
-    
+<html lang="ja">
     <head>
-        <meta charset="utf-8" />
-        <meta name="auther" content="ShintaroMIURA"/>
-        <meta name="keywords" content="html, css, javascript" />
-        <title>HTMLの講義だよ（2週目）</title>
-        
-        
+        <meta charset="UTF-8" />
+        <title>2回目のJavaScript</title>    
     </head>
-    
     <body>
+        
         <header>
-            <h1>HTMLの講義だよ</h1>
-            <nav>
-                ホーム
-                タグリファレンス
-                問い合わせ
-            </nav>
+            <h1>2回目のJavaScript</h1>
         </header>
+        
         <div>
-            <h1>第１章　HTMLの歴史</h1>
+            <h2>世界のこんにちは</h2>
+            <button type="button" onclick="hello(1)">日本語</button>
+            <button type="button" onclick="hello(2)">英語</button>
+            <button type="button" onclick="hello(3)">中国語</button>
+            <button type="button" onclick="hello(4)">韓国語</button>
         </div>
         
-            <h2>第1節</h2>
-        
-        <footer>
-            Copyright &copy; Osamu HASEGAWA
-        </footer>
-        
+<!--        外部のjavascriptファイルを読み込む-->
+        <script src="js/test.js"></script>
         
     </body>
-    
 </html>
